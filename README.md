@@ -1,4 +1,4 @@
-#Video player with seeking in DSpace
+# Video player with seeking in DSpace
 
 The implementation described below uses _videojs_ - _https://videojs.com/_
 
