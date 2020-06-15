@@ -14,7 +14,7 @@ You need to allow pass-through access for you apache web server (video requests 
 ProxyPass /video_folder !
 AliasMatch ^/video_folder/(.*) /folder1/subfolder1/video_folder/$1
 ```
-
+## DSpace (XMLUI) settings
 Add the following to item-view.xsl
 ```
  <xsl:if test="dim:field[@element='relation' and @qualifier='uri' and descendant::text()]">
@@ -53,7 +53,8 @@ Add the following to item-view.xsl
                 </xsl:if>
 ```
 
-create video poster with ffmpeg like
+## Video poster creation
+create video poster with ffmpeg like below.
 ```
 ffmpeg -ss 00:04:07 -i video.mp4 -vframes 1 poster_image.jpg
 ```
