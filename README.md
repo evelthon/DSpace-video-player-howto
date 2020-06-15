@@ -59,5 +59,5 @@ create video poster with ffmpeg like below.
 ffmpeg -ss 00:04:07 -i video.mp4 -vframes 1 poster_image.jpg
 ```
 
-
+## Required metadata
 For this to work you records must have a dc.relation.uri with the location of a video file, but omit the file extension (.mp4).
