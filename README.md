@@ -5,7 +5,7 @@ The implementation described below uses _videojs_ - _https://videojs.com/_
 - Video format is mp4
 - Videos are stored in a folder accessible by your browser.
 
-##Web server settings
+## Web server settings
 1. I am assuming you are using Apache to front your tomcat
 2. You forward requests to tomcat with ProxyPass
 
