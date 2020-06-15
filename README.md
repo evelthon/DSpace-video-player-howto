@@ -59,4 +59,4 @@ ffmpeg -ss 00:04:07 -i video.mp4 -vframes 1 poster_image.jpg
 ```
 
 
-For this to work you records myst have a dc.relation.uri with the location of a video file.
+For this to work you records must have a dc.relation.uri with the location of a video file, but omit the file extension (.mp4).
