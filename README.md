@@ -1,7 +1,7 @@
 # Video player with seeking in DSpace / XMLUI
 
 The implementation described below uses _videojs_ - _https://videojs.com/_
-
+![image1](./images/DSpace_videoplayer.png)
 - Video format is mp4
 - Videos are stored in a folder accessible by your browser.
 
@@ -61,3 +61,4 @@ ffmpeg -ss 00:04:07 -i video.mp4 -vframes 1 poster_image.jpg
 
 ## Required metadata
 For this to work you records must have a dc.relation.uri with the location of a video file, but omit the file extension (.mp4).
+For example, dc.relation.uri equals to 	folder1/folder2/filename (without .mp4 extension).
